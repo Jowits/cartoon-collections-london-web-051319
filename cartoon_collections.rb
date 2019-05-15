@@ -29,6 +29,7 @@ end
 
 def find_the_cheese(potentially_cheesy_items)# code an argument here
   # the array below is here to help
+  cheeses = %w[gouda cheddar camembert]
   potentially_cheesy_items.find do |maybe_cheese|
     cheese.include?(maybe_cheese)
 
